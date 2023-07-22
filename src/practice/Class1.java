@@ -27,6 +27,13 @@ public class Class1 {
 		extent.createTest("Hello2");
 		System.out.println("Class1 method2");
 	}
+	
+	@Test
+	public void Hello3()
+	{
+		extent.createTest("Hello3");
+		System.out.println("Class1 method3");
+	}
 
 	@BeforeTest
 	public void initialize()
